@@ -15,10 +15,32 @@ public boolean isOpen = true;
          public Factory(){
         isOpen = false;
         String manager = "Max";
-        System.out.println(manager);
+        System.out.println("manager:"+ manager);
         factoryInfo();
         //Todo: change the variable "yearfounded" to be a different value
-        // call factoryInf();
+
+        yearFounded = 2000;
+        isOpen = true;
+
+        //type varName = value
+        //object of type airplane
+         Airplane plane1 = new Airplane();
+         //plane1.name = "Maximus";
+         System.out.println(plane1.name);
+         //Todo: give all of plane1"s instance var values
+             plane1.model = "Prime";
+            plane1.capacity = 30;
+            plane1.length = 50;
+            plane1.isDoubleDecker = true;
+             System.out.println(plane1.length);
+             //Plane2
+             Airplane plane2  = new Airplane();
+             System.out.println(plane2.capacity);
+
+             //HW: make 2 more airplane pbjects
+             //for one of the objects change all the instance variables
+             //for both objects print all the instance variables
+
     }
         //make a method called factoryInfo, nothing should be in method
     public void factoryInfo(){
