@@ -36,7 +36,11 @@ public boolean isOpen = true;
              //Plane2
              Airplane plane2  = new Airplane();
              System.out.println(plane2.capacity);
+             plane2.capacity = 500;
 
+             Airplane plane3 = new Airplane(232,"Maximus","Prime", 70);
+             System.out.println(plane3.capacity);
+             plane3.printInfoo();
              //HW: make 2 more airplane pbjects
              //for one of the objects change all the instance variables
              //for both objects print all the instance variables
@@ -46,7 +50,7 @@ public boolean isOpen = true;
     public void factoryInfo(){
 //todo: add souts to print out the 3 instance variables
         System.out.println(yearFounded);
-        System.out.println(FactoryName);
+        System.  out.println(FactoryName);
         System.out.println("It is"+ isOpen + "that the factory is open");
         System.out.println(yearFounded + FactoryName + isOpen);
 

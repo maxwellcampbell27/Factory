@@ -9,13 +9,21 @@ public class Airplane {
     public boolean isDoubleDecker;
     public int length;
 
-    //constructor
-    public Airplane(){
-capacity = 250;
-name = "Maximus";
-model = "Prime";
-isDoubleDecker = false;
-length = 157;
+    //constructor with parameters
+    //todo: add a parameter for model, is doubledecker, and length to the constructor
+    //to set the value pf the instance variables to the parameters
+    //fix the related problems in factory
+    public Airplane(int pCapacity, String pName, String pmodel, int plength){
+capacity = pCapacity;
+name = pName;
+//pname = name;
 
+model = pmodel;
+isDoubleDecker = false;
+length = plength;
     }
+    //todo make a method called printInfo() that the airplanes instance variables
+    public void printInfoo(){
+}
+
 }
