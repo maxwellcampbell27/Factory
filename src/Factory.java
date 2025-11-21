@@ -56,5 +56,15 @@ public boolean isOpen = true;
 
 
     }
+new BasketballCourt(){
+        isOpen = true;
+    String manager = "Max";
+    System.out.println("manager:"+ manager);
 
+       BasketballCourt.model = "Prime";
+        BasketballCourt.CourtLoction = "Boston";
+        BasketballCourt. = 94;
+        System.out.println(BasketballCourt.length);
+
+}
 }
