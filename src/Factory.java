@@ -41,6 +41,7 @@ public boolean isOpen = true;
              Airplane plane3 = new Airplane(232,"Maximus","Prime", 70);
              System.out.println(plane3.capacity);
              plane3.printInfoo();
+             Airplane plane4 = new Airplane(230,"JUNIOR","PRIME", 80);
              //HW: make 2 more airplane pbjects
              //for one of the objects change all the instance variables
              //for both objects print all the instance variables
